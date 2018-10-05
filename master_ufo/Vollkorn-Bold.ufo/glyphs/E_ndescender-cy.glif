@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Endescender-cy" format="1">
+  <advance width="862"/>
+  <unicode hex="04A2"/>
+  <outline>
+    <component base="H"/>
+    <component base="__descender-cy.straight.case" xOffset="786"/>
+  </outline>
+</glyph>

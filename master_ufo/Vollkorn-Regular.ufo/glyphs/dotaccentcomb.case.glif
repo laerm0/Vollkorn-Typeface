@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb.case" format="1">
+  <advance width="219"/>
+  <outline>
+    <component base="dotaccentcomb" yOffset="190"/>
+    <contour>
+      <point x="110" y="676" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="110" y="799" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>

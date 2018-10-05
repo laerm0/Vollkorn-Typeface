@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.ThetaSymbol" format="1">
+  <advance width="569"/>
+  <outline>
+    <contour>
+      <point x="22" y="322" type="line"/>
+      <point x="268" y="325"/>
+      <point x="420" y="325"/>
+      <point x="547" y="325" type="curve"/>
+      <point x="547" y="368" type="line"/>
+      <point x="22" y="368" type="line"/>
+    </contour>
+    <contour>
+      <point x="284" y="347" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

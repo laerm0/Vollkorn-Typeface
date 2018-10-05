@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaabovecomb" format="1">
+  <advance width="226"/>
+  <unicode hex="0313"/>
+  <outline>
+    <component base="commaturnedabovecomb" xScale="-1" yScale="-1" xOffset="226" yOffset="1227"/>
+    <contour>
+      <point x="113" y="458" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="113" y="721" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

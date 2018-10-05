@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tse-cy.loclBGR" format="1">
+  <advance width="564"/>
+  <outline>
+    <component base="u"/>
+    <component base="descender-cy" xOffset="439" yOffset="28"/>
+  </outline>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringbelowcomb" format="1">
+  <advance width="302"/>
+  <unicode hex="0325"/>
+  <outline>
+    <component base="ringcomb" yOffset="-772"/>
+    <contour>
+      <point x="151" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="151" y="-246" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>

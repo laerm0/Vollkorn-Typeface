@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="QdoubleStruck" format="1">
+  <advance width="731"/>
+  <unicode hex="211A"/>
+  <outline>
+    <component base="OdoubleStruck"/>
+    <component base="_part.Q" xOffset="332"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=Q</string>
+    </dict>
+  </lib>
+</glyph>

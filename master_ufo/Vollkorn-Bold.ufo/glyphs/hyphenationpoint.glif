@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphenationpoint" format="1">
+  <advance width="327"/>
+  <unicode hex="2027"/>
+  <outline>
+    <component base="periodcentered"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=periodcentered</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=periodcentered</string>
+    </dict>
+  </lib>
+</glyph>

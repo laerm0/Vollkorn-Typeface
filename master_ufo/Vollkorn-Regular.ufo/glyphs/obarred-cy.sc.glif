@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarred-cy.sc" format="1">
+  <advance width="694"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="_part.ThetaSymbol" xOffset="63" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Obarred-cy</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

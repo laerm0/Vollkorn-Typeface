@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="measuredRightAngleWithDot.case" format="1">
+  <advance width="550"/>
+  <outline>
+    <component base="measuredRightAngleWithDot" yOffset="107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=measuredRightAngleWithDot</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=measuredRightAngleWithDot</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

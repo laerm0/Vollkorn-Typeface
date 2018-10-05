@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisbelowcomb" format="1">
+  <advance width="407"/>
+  <unicode hex="0324"/>
+  <outline>
+    <component base="dieresiscomb" yOffset="-737"/>
+    <contour>
+      <point x="204" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="204" y="-205" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>

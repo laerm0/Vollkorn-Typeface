@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tugrik.sc" format="1">
+  <advance width="573"/>
+  <outline>
+    <component base="t.sc"/>
+    <component base="_part.tugrik.sc" xOffset="42" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>tugrik</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

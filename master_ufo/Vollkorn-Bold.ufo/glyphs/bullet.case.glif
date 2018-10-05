@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet.case" format="1">
+  <advance width="440"/>
+  <outline>
+    <component base="bullet" yOffset="84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=bullet</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=bullet</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

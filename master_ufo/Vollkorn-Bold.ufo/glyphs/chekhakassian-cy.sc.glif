@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chekhakassian-cy.sc" format="1">
+  <advance width="737"/>
+  <outline>
+    <component base="che-cy.sc"/>
+    <component base="descender-cy" xScale="-1" xOffset="466"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

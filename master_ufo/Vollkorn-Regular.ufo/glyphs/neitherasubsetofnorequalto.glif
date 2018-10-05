@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="neitherasubsetofnorequalto" format="1">
+  <advance width="550"/>
+  <unicode hex="2288"/>
+  <outline>
+    <component base="reflexsubset"/>
+    <component base="_negationslash"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=reflexsubset</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=reflexsubset</string>
+    </dict>
+  </lib>
+</glyph>

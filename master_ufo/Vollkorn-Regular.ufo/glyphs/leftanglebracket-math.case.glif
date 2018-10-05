@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftanglebracket-math.case" format="1">
+  <advance width="347"/>
+  <outline>
+    <component base="leftanglebracket-math" yOffset="106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=leftanglebracket-math</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=leftanglebracket-math</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

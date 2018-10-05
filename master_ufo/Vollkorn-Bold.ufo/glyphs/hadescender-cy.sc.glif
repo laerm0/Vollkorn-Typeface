@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hadescender-cy.sc" format="1">
+  <advance width="703"/>
+  <outline>
+    <component base="x.sc"/>
+    <component base="descender-cy" xOffset="518" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>Hadescender-cy</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscomb.case" format="1">
+  <advance width="407"/>
+  <outline>
+    <component base="dieresiscomb" yOffset="200"/>
+    <contour>
+      <point x="204" y="676" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="204" y="830" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=50</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=50</string>
+    </dict>
+  </lib>
+</glyph>
