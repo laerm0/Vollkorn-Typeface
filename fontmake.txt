@@ -1,0 +1,130 @@
+usage: fontmake [-h] [--version]
+                (-g GLYPHS | -u UFO [UFO ...] | -m DESIGNSPACE)
+                [-o FORMAT [FORMAT ...]]
+                [--output-path OUTPUT_PATH | --output-dir OUTPUT_DIR]
+                [-i [INSTANCE_NAME]] [-M] [--family-name FAMILY_NAME]
+                [--round-instances] [--designspace-path DESIGNSPACE_PATH]
+                [--master-dir MASTER_DIR] [--instance-dir INSTANCE_DIR]
+                [--validate-ufo] [--keep-overlaps]
+                [--overlaps-backend BACKEND] [--keep-direction] [-e ERROR]
+                [-a [AUTOHINT]] [--cff-round-tolerance FLOAT]
+                [--optimize-cff OPTIMIZE_CFF]
+                [--interpolate-binary-layout [MASTER_DIR]]
+                [--feature-writer CLASS]
+                [--use-afdko | --mti-source MTI_SOURCE]
+                [--production-names | --no-production-names]
+                [--subset | --no-subset] [-s | -S] [--timing]
+                [--verbose LEVEL]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --production-names    Rename glyphs with production names if available
+                        otherwise use uninames.
+  --no-production-names
+  --subset              Subset font using export flags set by glyphsLib
+  --no-subset
+  -s, --subroutinize    Optimize CFF table using compreffor (default)
+                        [DEPRECATED: use --optimize-cff option instead]
+  -S, --no-subroutinize
+
+Input arguments:
+  The following arguments are mutually exclusive.
+
+  -g GLYPHS, --glyphs-path GLYPHS
+                        Path to .glyphs source file
+  -u UFO [UFO ...], --ufo-paths UFO [UFO ...]
+                        One or more paths to UFO files
+  -m DESIGNSPACE, --mm-designspace DESIGNSPACE
+                        Path to .designspace file
+
+Output arguments:
+  -o FORMAT [FORMAT ...], --output FORMAT [FORMAT ...]
+                        Output font formats. Choose between: ufo, otf, ttf,
+                        ttf-interpolatable, variable. Default: otf, ttf
+  --output-path OUTPUT_PATH
+                        Output font file path. Only valid when the output is a
+                        single file (e.g. input is a single UFO or output is
+                        variable font)
+  --output-dir OUTPUT_DIR
+                        Output folder. By default, output folders are created
+                        in the current working directory, grouping output
+                        fonts by format.
+  -i [INSTANCE_NAME], --interpolate [INSTANCE_NAME]
+                        Interpolate masters and generate all the instances
+                        defined. To only interpolate a specific instance (or
+                        instances) that match a given "name" attribute, you
+                        can pass as argument the full instance name or a
+                        regular expression. E.g.: -i "Noto Sans Bold"; or -i
+                        ".* UI Condensed". (for Glyphs or MutatorMath sources
+                        only).
+  -M, --masters-as-instances
+                        Output masters as instances
+  --family-name FAMILY_NAME
+                        Family name to use for masters, and to filter output
+                        instances
+  --round-instances     Apply integer rounding to all geometry when
+                        interpolating
+  --designspace-path DESIGNSPACE_PATH
+                        Path to output designspace file (for Glyphs sources
+                        only).
+  --master-dir MASTER_DIR
+                        Directory where to write master UFO. Default:
+                        "./master_ufo". If value is "{tmp}", a temporary
+                        directory is created and removed at the end (for
+                        Glyphs sources only).
+  --instance-dir INSTANCE_DIR
+                        Directory where to write instance UFOs. Default:
+                        "./instance_ufo". If value is "{tmp}", a temporary
+                        directory is created and removed at the end (for
+                        Glyphs sources only).
+  --validate-ufo        Enable ufoLib validation on reading/writing UFO files.
+                        It is disabled by default
+
+Handling of contours:
+  --keep-overlaps       Do not remove any overlap.
+  --overlaps-backend BACKEND
+                        Select library to remove overlaps. Choose between:
+                        booleanOperations, pathops (default:
+                        booleanOperations)
+  --keep-direction      Do not reverse contour direction when output is ttf or
+                        ttf-interpolatable
+  -e ERROR, --conversion-error ERROR
+                        Maximum approximation error for cubic to quadratic
+                        conversion measured in EM
+  -a [AUTOHINT], --autohint [AUTOHINT]
+                        Run ttfautohint. Can provide arguments, quoted
+  --cff-round-tolerance FLOAT
+                        Restrict rounding of point coordinates in CFF table to
+                        only those floats whose absolute difference from their
+                        integral part is less than or equal to the tolerance.
+                        By default, all floats are rounded to integer
+                        (tolerance 0.5); 0 disables rounding.
+  --optimize-cff OPTIMIZE_CFF
+                        0 disables all optimizations; 1 specializes the CFF
+                        charstring operators; 2 (default) also enables
+                        subroutinization
+
+Handling of OpenType Layout:
+  --interpolate-binary-layout [MASTER_DIR]
+                        Interpolate layout tables from compiled master
+                        binaries. Requires Glyphs or MutatorMath source.
+  --feature-writer CLASS
+                        string specifying a feature writer class to load,
+                        either built-in or from an external module, optionally
+                        initialized with the given keyword arguments. The
+                        class and module names are separated by '::'. The
+                        option can be repeated multiple times for each writer
+                        class. A special value of 'None' will disable all
+                        automatic feature generation. The option overrides
+                        both the default ufo2ft writers and those specified in
+                        the UFO lib.
+  --use-afdko           Use makeOTF instead of feaLib to compile FEA.
+  --mti-source MTI_SOURCE
+                        Path to mtiLib .txt feature definitions (use instead
+                        of FEA)
+
+Logging arguments:
+  --timing              Print the elapsed time for each steps
+  --verbose LEVEL       Configure the logger verbosity level. Choose between:
+                        DEBUG, INFO, WARNING, ERROR, CRITICAL. Default: INFO
